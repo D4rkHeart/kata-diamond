@@ -13,3 +13,8 @@ except:
 print(space*(x) + "A")
 for y in range(1, x + 1, 1):
 	print(space*(x-y) + letter[y] + space*((y*2)-1) + letter[y])
+
+#Print de lower part of the diamond
+for y in range(x -1 ,0, -1):
+	print(space*(x-y) + letter[y] + space*((y*2)-1) + letter[y])
+print(space*(x) + "A")
